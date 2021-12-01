@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+   int a,b,rem;
+   printf("enter the first number:");
+   scanf("%d",&a);
+   printf("enter the second number:");
+   scanf("%d",&b);
+   
+   rem=a-(a/b)*b;
+   printf("remainder is =%d\n",rem);
+   
+    
+    return 0;
+}
