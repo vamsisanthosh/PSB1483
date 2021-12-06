@@ -1,0 +1,23 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include <conio.h>
+ int main() {
+    
+  
+    
+    int radius;
+    float volume_of_sphere;
+    float PI = 3.142;
+    printf("program to calculate volume of sphere : ");
+    
+    printf("\n\n enter the radius of sphere : ");
+    scanf("%d", &radius);
+    
+    
+    
+    volume_of_sphere =(4/3)* PI*radius*radius*radius;
+    
+    
+    printf("\n\n volume of sphere with radius as %d = %f",radius, volume_of_sphere);
+
+ }

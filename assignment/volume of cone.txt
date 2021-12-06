@@ -1,0 +1,42 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include <conio.h>
+ int main() {
+    
+    
+    int height;
+    int radius;
+    float volume_of_cone;
+    float PI = 3.142;
+    printf("program to calculate volume of cone : ");
+    
+    printf("\n\n enter the radius of cone : ");
+    scanf("%d", &radius);
+    
+    printf("\n\n enter the height of cone:");
+    scanf("%d",&height);
+    
+    volume_of_cone = PI*radius*radius*height;
+    
+    
+    printf("\n\n volume of cone with radius as %d and height as %d = %f",radius,height,volume_of_cone);
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include
+int main() {
+    float yard;
+    float foot;
+    
+    printf("program to convert yard to foot  : ");
+    
+    printf("\n\n enter length in yard : ");
+    scanf("%f", &yard);
+    
+    foot =(3*yard);
+    
+    printf("\n\n enter %f yard in foot = %f\n",yard,foot);
+    
+    
+    return 0;
+}
