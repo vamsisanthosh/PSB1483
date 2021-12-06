@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include <conio.h>
+ int main() {
+    
+     float meter;
+     float feet;
+
+
+     printf("program to convert meter to feet: ");
+
+     printf("\n\n enter length in meters :");
+     scanf("%f", &meter);
+
+     feet =(meter*3.26);
+
+     printf("\n\n %f meter in feet = %f\n",meter,feet);
+     return 0;    
+   
+
+ }

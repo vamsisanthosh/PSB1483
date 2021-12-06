@@ -1,0 +1,22 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include <conio.h>
+int main() {
+   
+    int r1,r2;
+    float PI =3.142;
+    long area_of_ellipse;
+    
+    printf("program to calculate Area of a Ellipse : \n\n");
+    
+    printf("enter Radius1 of Ellipse :");
+    scanf("%d", &r1);
+    
+    printf("\n\n Enter Radius2 of ellipse :");
+    scanf("%d", &r2);
+    
+    area_of_ellipse =PI*r1*r2;
+    
+    printf("\n\n Area of ellipse with radius1 as %d and radius2 as %d =%1d",r1,r2,area_of_ellipse);
+    // getch();
+}

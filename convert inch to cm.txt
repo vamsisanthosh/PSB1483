@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//#include
+int main() {
+    float inch;
+    float cm;
+    
+    printf("program to convert inch to cm : ");
+    
+    printf("\n\n enter length in inch : ");
+    scanf("%f", &inch);
+    
+    cm =(2.54*inch);
+    
+    printf("\n\n enter %f inch in cm = %f\n",inch,cm);
+    
+    
+    return 0;
+}
