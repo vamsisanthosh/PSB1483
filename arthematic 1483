@@ -1,0 +1,49 @@
+#include<stdio.h>  
+void sum();
+void product();
+void division();
+void substract();
+void main()  
+{  
+    printf("\nGoing to calculate the sum of two numbers:");  
+    sum();  
+ 
+  
+    printf("\nGoing to calculate the product of two numbers:");  
+    product();  
+
+    printf("\nGoing to calculate the division of two numbers:");  
+    division(); 
+    printf("\nGoing to calculate the substract of two numbers:");  
+    substract();  
+ 
+}
+void sum()  
+{  
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The sum is %d",a+b);  
+} 
+void product()
+{  
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The productis %d",a*b);  
+}
+
+void division()
+{
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The division is %d",a/b);  
+} 
+void substract()  
+{  
+    int a,b;   
+    printf("\nEnter two numbers");  
+    scanf("%d %d",&a,&b);   
+    printf("The substract is %d",a-b);  
+} 
